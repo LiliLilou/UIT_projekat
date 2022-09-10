@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meni.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title> E-portfolio </title>
+</head>
+<body>
+    <div class="container ">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times">
+
+                    </i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1 style="color:#784B84;text-align:center;"> E-portfolio</h1>
+           <p style="color:#3a1b42;text-align:center;"><small>Ljiljana Zelenović</small></p> 
+            <div class="container">
+                <div class="row">
+                    <div class="column1">
+                <div class="contact">
+                    <p>Kontakt podaci:<br>
+                       Broj telefona: 066 522 322<br>
+                       E-mail: zelenovic935@gmail.com<br>
+                       Adresa: Vojvode Stepe 283, Vozdovac
+                      </p>
+                  </div>
+                </div>
+                <div class="column2">
+                <div class="forma">
+                    <form id="nameform">
+                        <p style="text-align: center;"><b>KONTAKTIRAJ ME</b></p>
+                        <label>Ime:</label> <br>
+                        <input type="text" placeholder=" Ime" id="ime"><br> 
+                        <label>Prezime:</label> <br>
+                        <input type="text" placeholder=" Prezime" id="prezime"><br> 
+                        <label>E-mail adresa:</label> <br> 
+                        <input type="email" id="email" placeholder=" E-mail"> <br> 
+                        <label>Lozinka</label><br>
+                        <input type="password" required id="lozinka" placeholder=" Lozinka"> <br>
+                        <label>Potvrda lozinke:</label> <br>
+                        <input type="password" required id="potvrdalozinke" placeholder=" Potvrdite lozinku"><br> <br>
+                        <button type="submit" class="btn" onclick="posalji(), validate()">Pošalji</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>
+        <br>
+        <footer>
+            Ljiljana Zelenović, &copy 2020
+        </footer>
+    </div>
+    
+    <nav>
+        <ul>
+            <li> <i class="fas fa-home"><a href="index.html"> Početna</a></i></li>
+            <li> <i class="fas fa-user"> <a href="biografija.html"> Biografija</a></i></li>
+            <li> <i class="far fa-images"><a href="gallery.html"> <strong> Galerija</strong></a></i></li>
+            <li> <i class="fas fa-leaf"> <a href="priroda.html"> Priroda </a></i></li>
+            <li> <i class="fas fa-envelope "><a href="#"> Kontakt</a></i></li>
+        </ul>
+    </nav>
+    
+    
+
+    <script src="meni.js"></script>
+</body>
+</html>
+
+
+
+
